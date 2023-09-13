@@ -1,0 +1,36 @@
+{
+  "name": "drone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --port 8081"
+  },
+  "author": "Androsenko Nikita",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^6.8.0",
+    "@babylonjs/inspector": "^6.9.0",
+    "cannon": "^0.6.2",
+    "html-webpack-plugin": "^5.5.1",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@babylonjs/gui": "^6.17.0",
+    "@babylonjs/gui-editor": "^6.17.0",
+    "@babylonjs/havok": "^1.1.0",
+    "@babylonjs/loaders": "^6.8.0",
+    "@babylonjs/materials": "^6.17.0",
+    "@babylonjs/serializers": "^6.17.0",
+    "axios": "^1.5.0",
+    "crypto-browserify": "^3.12.0",
+    "fs": "^0.0.1-security",
+    "path-browserify": "^1.0.1"
+  }
+}
